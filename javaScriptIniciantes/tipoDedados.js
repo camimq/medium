@@ -19,3 +19,15 @@ console.log(typeof novoObjeto); // Object
 var naoDefinido;
 
 console.log(typeof naoDefinido) // undefined
+
+//-----------------------------------------------------
+
+function objetoMensagem(nome){
+    if(!nome){
+        return null;
+    }
+    return {message : 'Olá, `$(nome)!'};
+}
+
+objetoMensagem('Camila'); // => {messa: 'Olá, Camila!'};
+objetoMensagem(); // => null
