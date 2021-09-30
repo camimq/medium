@@ -31,3 +31,7 @@ function objetoMensagem(nome){
 
 objetoMensagem('Camila'); // => {messa: 'Olá, Camila!'};
 objetoMensagem(); // => null
+
+//-----------------------------------------------------
+
+console.log('num'/2); // => NaN
